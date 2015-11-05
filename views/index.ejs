@@ -1,11 +1,28 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<% include head %>
+<div class="ui inverted segment">			
+	<h1 class="ui blue inverted header">欢迎来到MicroMotto</h1>
+	<h3 class="ui grey inverted header">MicroMotto是一个地方，记录那些你难以忘怀的些许文字</h3>
+</div>
+<div class="ui three stackable cards">
+	<div class="ui blue card">
+		<div class="content">
+			<div class="header">村上春树说</div>
+			<p class="description">刚刚好，看到你幸福的样子，于是幸福着你的幸福。</p>
+		</div>
+	</div>
+	<div class="ui blue card">
+		<div class="content">
+			<div class="header">木心说</div>
+			<p class="description">从前的日色变得慢/车，马，邮件都慢/一生只够爱一个人</p>
+		</div>
+	</div>
+	<div class="ui blue card">
+		<div class="content">
+			<div class="header">Zefoa说</div>
+			<p class="description">不要因为看不清未来，就失去了当下生活的乐趣</p>
+		</div>
+	</div>
+</div>
+<h4 class="ui horizontal divider header"><i class="tag icon"></i> Description </h4>
+<% include footer %>
+
